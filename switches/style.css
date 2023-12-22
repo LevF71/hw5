@@ -1,0 +1,34 @@
+.switch{
+width: 200px;
+
+
+}
+.switch__toggle{
+    width: 70px;
+    height: 70px;
+    background: url(/images/Ellipse\ 1.svg) center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.switch__label{
+    background: url(/images/switch-body.svg) center center no-repeat;
+background-size: contain;
+
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.switch__input{
+    display: none;
+}
+.switch__input:checked + .switch__label {
+    text-align: right;
+    background-image: url(/images/switch-bodyhhh.svg)
+    }
+.switch__input:checked + .switch__label .switch__toggle{
+background-image: url(/images/Switch_TOGLE_ORANGE.svg)
+
+}
